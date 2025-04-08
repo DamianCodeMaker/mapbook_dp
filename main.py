@@ -6,6 +6,5 @@ user = [
 
 ]
 
-# twój znajmowy krzysztof z opublikował tyle i tyle postów
 for user in users:
     print(f"Twój znajomy {user['name']}, z {user['location']} opublikował {user['posts']} postów")
