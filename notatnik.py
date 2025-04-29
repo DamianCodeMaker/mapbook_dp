@@ -8,7 +8,7 @@ def remove_user(users_data: list) -> None:
 
     for user in users_data:
 
-        if user['name'] == uzytkownik_do_usuniecia:
+        if user['name'] == uzytkownik_do_usunięcia:
             users_data.remove(user)
 
 

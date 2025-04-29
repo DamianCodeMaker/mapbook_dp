@@ -1,4 +1,4 @@
-from init.controller import get_user_info, add_user
+from init.controller import get_user_info, add_user, remove_user
 from init.model import users
 
 def main():
