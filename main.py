@@ -1,4 +1,4 @@
-from init.controller import get_user_info, add_user, remove_user
+from init.controller import get_user_info, add_user, remove_user, update_user, get_map
 from init.model import users
 
 def main():
@@ -10,6 +10,7 @@ def main():
         print("2 - dodaj nowego użytkownika")
         print("3 - usuń użytkownika")
         print("4 - edytuj użytkownika")
+        print("5 - przygotuj mapę znajomych")
         print("==============MENU===================")
 
         choice = input("wybierz opcje menu")
@@ -17,6 +18,8 @@ def main():
         if choice == '1': get_user_info(users)
         if choice == '2': add_user(users)
         if choice == '3': remove_user(users)
+        if choice == '4': update_user(users)
+        if choice == '5': get_map()
 
 
 
